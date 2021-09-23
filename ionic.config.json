@@ -1,0 +1,7 @@
+{
+  "name": "wala-driver-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
