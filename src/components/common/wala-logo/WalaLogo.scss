@@ -1,0 +1,26 @@
+#wala-logo{
+        font-family: 'Pacifico', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        &.small{
+                font-size: 16px;
+        }
+        
+        &.default{
+                font-size: 24px;
+        }
+
+        &.large{
+                font-size: 32px;
+        }
+        
+        &.extra_large{
+                font-size: 64px;
+        }
+
+        &.success {
+                color: var(--ion-color-success);
+        }
+
+        &.light {
+                color: var(--ion-color-light);
+        }
+}

@@ -1,0 +1,18 @@
+#sidemenu{
+    ion-list{
+        ion-item{
+            font-size: 18px;
+            --inner-padding-top: 8px;
+            --inner-padding-bottom: 8px;
+
+            &.selected {
+                --background: var(--ion-color-medium);
+                color: var(--ion-color-success);
+                font-weight: 500;
+             ion-icon{
+                 color: var(--ion-color-success);
+             }
+            }
+        }
+    }
+}

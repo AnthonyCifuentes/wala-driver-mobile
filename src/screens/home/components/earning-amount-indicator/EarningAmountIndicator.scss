@@ -1,0 +1,20 @@
+.earning_amount_indicator{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &_content{
+        background: var(--ion-color-secondary);
+        border-radius: 100px;
+        max-width: 200px;
+        padding: 8px;
+        font-size: 18px;
+        p{
+            color: #ffffff;
+            margin: 0 4px;
+            span{
+                margin-right: 4px;
+                color: #019750;
+            }
+        }
+    }
+}

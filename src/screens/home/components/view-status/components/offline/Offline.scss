@@ -1,0 +1,34 @@
+.view_status_offline{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &_icon{
+        background: var(--ion-color-medium);
+        border-radius: 50%;
+        width: 156px;
+        height: 156px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ion-icon{
+            font-size: 56px;
+        }
+    }
+    &_title{
+        position: absolute;
+        bottom: 56px;
+        text-align: center;
+        h3{
+            margin: 32px 0 0 0;
+            font-size: 28px;
+        }
+        p{
+            margin: 4px 0 16px 0;
+            color: rgba(var(--ion-color-dark-rgb), 0.5);
+        }
+        ion-button{
+            width: 100%;
+        }
+    }
+
+}
